@@ -11,7 +11,7 @@ namespace SlidingPages
 			var navPage = new NavigationPage(new PageOne());
 
 			// Enabling this Flag prevents the app from crashing when sent to the background
-			navPage.AllowStateLoss = true;
+			// navPage.AllowStateLoss = true;
 
 			MainPage = navPage;
 		}
